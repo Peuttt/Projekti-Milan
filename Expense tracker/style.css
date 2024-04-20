@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expense-tracker-container {
+    width: 500px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 25px rgb(111, 111, 111);
+}
+
+.expense-tracker-container .expenseTracker {
+    margin-bottom: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.expense-tracker-container .balance-section {
+    text-align: left;
+}
+
+.expense-tracker-container .balance-section .balance {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.expense-tracker-container .balance-section .income-expense-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px gray;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    justify-content: space-around;
+}
+
+.income-expense-container > hr {
+    opacity: .5;
+}
+
+.expense-tracker-container .balance-section .income-expense-container 
+.income-container,
+.expense-container {
+    padding: 20px 50px;
+    text-align: center;
+    }
+
+.income, .expense {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.income-container > h1 {
+   color: rgb(113, 170, 29);
+   text-shadow: 0px 0px 1px rgb(81, 81, 81);
+}
+
+.expense-container > h1 {
+    color: red;
+    text-shadow: 0px 0px 1px rgb(81, 81, 81);
+}
+
+.history-container .history {
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+
+.new-transaction-container {
+    margin-top: 60px;
+}
+
+.new-transaction-container .add-transaction {
+    font-size: 30px;
+}
+
+.add-transaction {
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+
+.new-transaction-container > input{
+width: 100%;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 2px;
+margin-bottom: 10px;
+}
+
+.new-transaction-container > h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+.addTransactionBtn {
+    background-color: blueviolet;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-shadow: 0px 0px 2px black;
+}
+
+.historyCard {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 0px 2px rgb(95, 95, 95);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
